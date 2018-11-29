@@ -5,7 +5,9 @@ services:
 before_install:
   - gem update --system
   - gem install bundler
+  - bundle install
   - docker build -t kristijanklepac/dockerizereact -f Dockerfile.dev .
 
 scripts:
+  - bundle exec rake test
   - docker run kristijanklepac/dockerizereact npm run test -- --coverage
