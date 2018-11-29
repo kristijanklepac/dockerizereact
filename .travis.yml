@@ -1,13 +1,10 @@
 sudo: required
-language: python
 
 services:
   - docker
 
-install: true
-
 before_install:
   - docker build -t kristijanklepac/dockerizereact -f Dockerfile.dev .
 
-scripts:
+script:
   - docker run kristijanklepac/dockerizereact npm run test -- --coverage
