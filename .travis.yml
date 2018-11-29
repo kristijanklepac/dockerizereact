@@ -1,12 +1,14 @@
-language: ruby
 sudo: required
+language: python
+python:
+  - 2.7
+  - 3.2
+  - 3.5
 services:
-- docker
+  - docker
 
 before_install:
-- gem update bundler
-- gem install rake
-- docker build -t kristijanklepac/dockerizereact -f Dockerfile.dev .
+  - docker build -t kristijanklepac/dockerizereact -f Dockerfile.dev .
 
 scripts:
-- docker run kristijanklepac/dockerizereact npm run test -- --coverage
+  - docker run kristijanklepac/dockerizereact npm run test -- --coverage
