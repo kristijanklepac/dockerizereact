@@ -1,11 +1,10 @@
 sudo: required
 language: python
-python:
-  - 2.7
-  - 3.2
-  - 3.5
+
 services:
   - docker
+
+install: true
 
 before_install:
   - docker build -t kristijanklepac/dockerizereact -f Dockerfile.dev .
