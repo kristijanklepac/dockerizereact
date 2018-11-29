@@ -13,11 +13,11 @@ class App extends Component {
           </p>
           <a
             className="App-link"
-            href="https://kristijanklepac.info"
+            href="https://www.kristijanklepac.info/dockerize-react-app-continuous-integration-and-deployment-with-aws/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Dockerize React App
+            Dockerize React App -  Continuous Integration and Deployment with AWS
           </a>
         </header>
       </div>
