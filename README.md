@@ -1,3 +1,8 @@
+##This is simple example how to DDockerize React App - Continuous Integration and Deployment with AWS
+
+# go to my blog: https://www.kristijanklepac.info/dockerize-react-app-continuous-integration-and-deployment-with-aws/
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
