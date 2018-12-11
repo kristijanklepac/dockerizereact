@@ -1,4 +1,4 @@
-## This is simple example how to Dockerize React App - Continuous Integration and Deployment with AWS
+## This is simple example how to Dockerize React App - Continuous Integration and Deployment with TravisCI and AWS
 
 ### go to my blog: https://www.kristijanklepac.info/dockerize-react-app-continuous-integration-and-deployment-with-aws/
 
